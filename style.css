@@ -48,6 +48,7 @@ nav ul li{
    border-radius: 12px;
    padding: 34px;
    background-image: url('bg.jpg');
+   object-fit: contain;
 }
 
 .bottom{
@@ -67,14 +68,18 @@ nav ul li{
     margin-bottom: 14px;
     display: flex;
     align-items: center;
+    padding: 10px;
 }
 .icons i{
     cursor: pointer;
 }
 
 #myProgressBar{
+    display: flex;
     width: 80vw; 
     cursor: pointer;
+   
+   
 }
 
 .songItemContainer{
@@ -101,16 +106,20 @@ nav ul li{
 
 .timestamp{
     margin: 0 23px;
+    display: flex;
 }
 
 .timestamp i{
     cursor: pointer;
+    padding-left: 20px;
+   
 }
 
 .songInfo{
     position: absolute;
     left: 10vw;
     font-family: 'Varela Round', sans-serif;
+    padding: 10px;
 }
 
 .songInfo img{
@@ -128,6 +137,10 @@ nav ul li{
     margin: 0 10px;
     cursor: pointer;
     font-size: 1.5rem;
+}
+
+.songName{
+    font-size: small;
 }
 
 @media only screen and (max-width: 1100px) {
